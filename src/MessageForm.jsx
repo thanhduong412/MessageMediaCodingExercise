@@ -20,7 +20,7 @@ export const MessageForm = () => (
         >
             <Form>
                 <label htmlFor="destinationNumber">Destination Number: </label>
-                <Field id="destinationNumber" name="destinationNumber" placeholder = "0" type="number"/>
+                <Field id="destinationNumber" name="destinationNumber" placeholder = "0123456789" type="tel"/>
 
                 <label htmlFor="message">Message: </label>
                 <Field id="message" name="message" placeholder= "Type your message here!" type="text"/>
